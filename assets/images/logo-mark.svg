@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6c874"/>
+      <stop offset="100%" stop-color="#9c7a2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="#0b0b0a" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <!-- olive leaves -->
+  <g fill="#7c8b56" opacity="0.85">
+    <ellipse cx="22" cy="60" rx="5" ry="2.4" transform="rotate(-30 22 60)"/>
+    <ellipse cx="27" cy="68" rx="5" ry="2.4" transform="rotate(-15 27 68)"/>
+    <ellipse cx="78" cy="60" rx="5" ry="2.4" transform="rotate(30 78 60)"/>
+    <ellipse cx="73" cy="68" rx="5" ry="2.4" transform="rotate(15 73 68)"/>
+  </g>
+  <!-- droplets -->
+  <g fill="url(#goldGrad)" opacity="0.9">
+    <circle cx="42" cy="30" r="1.6"/>
+    <circle cx="50" cy="27" r="1.6"/>
+    <circle cx="58" cy="30" r="1.6"/>
+  </g>
+  <!-- T monogram -->
+  <text x="50" y="66" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-weight="700" font-size="46" fill="url(#goldGrad)">T</text>
+</svg>
