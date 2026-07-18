@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Choose Us — Talash Foods</title>
+<meta name="description" content="The Talash Difference — honestly made, health-first formulation, flavor you'll crave, and quality at every step.">
+<link rel="icon" type="image/svg+xml" href="assets/images/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/images/logo-mark.svg" alt="Talash Foods" class="brand-mark">
+      <span class="brand-word">TALASH <b>FOODS</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="why-choose-us.html" class="is-active">Why Choose Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="products.html" class="btn btn--gold nav-cta">Shop Now</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">The Talash Difference</span>
+    <h1>Why Choose Talash Foods</h1>
+    <p>Four commitments that shape every recipe, every pack, every time.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container why-grid">
+    <div class="why-card reveal">
+      <span class="index">01</span>
+      <h3>Honestly Made</h3>
+      <p>We don't hide behind buzzwords. What's on the label is what's in the pack.</p>
+    </div>
+    <div class="why-card reveal">
+      <span class="index">02</span>
+      <h3>Health-First Formulation</h3>
+      <p>Every recipe starts with a simple question: does this actually do our body good? If the answer's no, it doesn't make the cut.</p>
+    </div>
+    <div class="why-card reveal">
+      <span class="index">03</span>
+      <h3>Flavor You'll Crave</h3>
+      <p>Healthy snacking shouldn't feel like a compromise — our recipes are tested and refined until they're genuinely delicious.</p>
+    </div>
+    <div class="why-card reveal">
+      <span class="index">04</span>
+      <h3>Quality at Every Step</h3>
+      <p>From sourcing to packaging, we hold ourselves to a standard that puts your trust first.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--olive closing-banner">
+  <div class="container reveal" style="max-width:600px;">
+    <span class="eyebrow">Taste It Yourself</span>
+    <h2 style="font-size:34px;">See What All the Talk Is About</h2>
+    <a href="products.html" class="btn btn--gold" style="margin-top:20px;">Explore Our Snacks</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <span class="brand-word">TALASH <b>FOODS</b></span>
+      <p>Good Food. Good Feeling. Wholesome snacks made with real ingredients, honest labels, and flavor you'll actually crave.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V5h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V9a1 1 0 0 1 1-1Z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>More</h5>
+      <ul>
+        <li><a href="why-choose-us.html">Why Choose Us</a></li>
+        <li><a href="contact.html">Bulk / Corporate Orders</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h5>Snack Smarter — Join Our List</h5>
+      <p style="font-size:13.5px;opacity:.65;">Get updates on new flavors, offers, and healthy snacking tips.</p>
+      <form data-newsletter-form>
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Talash Foods. All rights reserved.</span>
+    <span>Made with care, in search of better.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
